@@ -2740,6 +2740,116 @@ a {
 .cid-u9xyQOt3ve H10 {
   color: #767676;
 }
+.cid-ua0VEGBZFc P {
+  color: #1281fc;
+}
+.cid-ua0VEGBZFc DIV {
+  color: #ffffff;
+}
+.cid-ua0VEGBZFc H10 {
+  color: #034e75;
+}
+.cid-ua0VEGBZFc .hidden {
+  display: none;
+}
+.cid-ua0VEGBZFc .icon-bar {
+  z-index: 100002;
+  position: fixed;
+  top: 45%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-right: 11px;
+}
+.cid-ua0VEGBZFc .icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 3px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  padding-left: 11px;
+}
+.cid-ua0VEGBZFc .icon-bar a:hover {
+  background-color: #fe5000;
+}
+.cid-ua0VEGBZFc .flag {
+  background: transparent;
+}
+.cid-ua0VEGBZFc .content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+.cid-ua0VEGBZFc .nav-right {
+  float: left !important;
+  position: relative;
+}
+.cid-ua0VEGBZFc #google_translate_element {
+  display: none;
+}
+.cid-ua0VEGBZFc .goog-te-banner {
+  display: none;
+}
+.cid-ua0VEGBZFc .skiptranslate {
+  display: none;
+  bottom: 0px;
+  position: relative;
+}
+.cid-ua0VEGBZFc .goog-te-spinner-pos {
+  display: none !important;
+}
+.cid-ua0VEGBZFc body {
+  top: 0px !important;
+}
+.cid-ua0VEGBZFc body body {
+  top: 0 !important;
+}
+.cid-ua0VEGBZFc body .goog-te-banner-frame {
+  display: none !important;
+}
+.cid-ua0VEGBZFc .goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+.cid-ua0VEGBZFc .goog-tooltip {
+  display: none !important;
+}
+.cid-ua0VEGBZFc .goog-tooltip:hover {
+  display: none !important;
+}
+.cid-ua0VEGBZFc .goog-text-highlight {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  display: none !important;
+  Background-color: transparent;
+}
+.cid-ua0VEGBZFc #goog-gt-tt,
+.cid-ua0VEGBZFc .goog-te-balloon-frame {
+  display: none !important;
+}
+.cid-ua0VEGBZFc #goog-gt-tt {
+  visibility: hidden;
+  display: none !important;
+}
+.cid-ua0VEGBZFc .goog-logo-link {
+  display: none !important;
+}
+.cid-ua0VEGBZFc .goog-te-gadget {
+  height: 28px !important;
+  overflow: hidden;
+}
+.cid-ua0VEGBZFc div.imgtest {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  content: url(https://www.unsitepourtous.be/logoscript/logo-zen.png);
+}
+.cid-ua0VEGBZFc div.imgtest2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  content: url(https://www.unsitepourtous.be/logoscript/flags145.png);
+}
 .cid-u9rljGI1ck {
   z-index: 1000;
   width: 100%;

@@ -25,7 +25,7 @@
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link href="assets/fonts/style.css" rel="stylesheet">
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=mkfQ5g"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=mkfQ5g" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=vYUkYf"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=vYUkYf" type="text/css">
 
   
   
@@ -390,7 +390,6 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 <div id="map" style="height: 400px;"></div>
-
 <script>
 // Initialize the map
 var map = L.map('map').setView([5.344772750478454, -4.0407534044921935], 10);
@@ -403,22 +402,108 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Agency locations
 var agencies = [
-  { name: 'Agency 1', latitude: 5.3567, longitude: -4.0123, address: 'Address 1', phone: 'Phone 1', hours: 'Hours 1' },
-  { name: 'Agency 2', latitude: 5.3789, longitude: -4.0456, address: 'Address 2', phone: 'Phone 2', hours: 'Hours 2' },
+  //{ name: 'Agency 1', latitude: 5.3567, longitude: -4.0123, address: 'Address 1', phone: 'Phone 1', hours: 'Hours 1' },
+  //{ name: 'Agency 2', latitude: 5.3789, longitude: -4.0456, address: 'Address 2', phone: 'Phone 2', hours: 'Hours 2' },
   // Add more agency locations
+  {
+  name: 'Station Corlay, Bd Arsène Usher Assouan',
+  latitude: 5.35492,
+  longitude: -3.95982,
+  address: 'Corlay, 923R+X3Q, 112 Bd Arsène Usher Assouan',
+  phone: '+225 27 21 21 15 15',
+  hours: '6h00-22h00'
+},
+   {
+  name: 'Station Corlay, Rue des jardins',
+  latitude: 5.35546,
+  longitude: -3.99155,
+  address: 'Corlay, Corlay Gas Station, 9245+6C6, Rue des Jardins',
+  phone: '+225 27 21 21 15 15',
+  hours: '6h00-22h00'
+},
+     {
+  name: 'Station Corlay, Boulevard du Cameroun',
+  latitude: 5.29676,
+  longitude: -3.96820,
+  address: 'Corlay, 72WJ+PP3, Boulevard du Cameroun, Abidjan',
+  phone: '+225 01 51 28 16 90',
+  hours: '6h00-22h00'
+},
+  {
+  name: 'Station Corlay, Angré',
+  latitude: 5.39754,
+  longitude: -3.99182,
+  address: '92X5+373 Station Corlay Angré, Bd des Martyrs, Abidjan',
+  phone: '+225 27 21 21 15 15',
+  hours: '6h00-22h00'
+},
+  {
+  name: 'Station Corlay, Marcory 2',
+  latitude: 5.30224,
+  longitude: -3.98822,
+  address: '8226+XP9 Station Corlay, Abidjan',
+  phone: '+225 27 21 21 15 15',
+  hours: '6h00-22h00'
+},
+  {
+  name: 'Station Corlay, Treichville',
+  latitude: 5.30778,
+  longitude: -4.00944,
+  address: '8255+CC3 Corlay, Abidjan',
+  phone: '+225 27 21 21 15 15',
+  hours: '6h00-22h00'
+},
+  {
+  name: 'Station Corlay, Plateau',
+  latitude: 5.31539,
+  longitude: -4.01610,
+  address: '8X8M+6H5 Station Corlay Plateau, Abidjan',
+  phone: '+225 27 21 21 15 15',
+  hours: '6h00-22h00'
+},
+  {
+  name: 'Station Corlay, Marcory Résidentiel',
+  latitude: 5.30853,
+  longitude: -3.99129,
+  address: '8255+CC3 Corlay, Abidjan',
+  phone: '+225 27 21 21 15 15',
+  hours: '6h00-22h00'
+},
+  {
+  name: 'Station Corlay, Adjamé',
+  latitude: 5.35417,
+  longitude: -4.01778,
+  address: '9X3J+MW Corlay gas station, Bd de Gaulle, Abidjan',
+  phone: '+225 27 21 21 15 15',
+  hours: '6h00-22h00'
+},
+  {
+  name: 'Station Corlay, Autoroute du Nord',
+  latitude: 5.36216,
+  longitude: -4.02302,
+  address: '9X6G+VQQ Corlay gas station, Autoroute du Nord, Abidjan',
+  phone: '+225 27 21 21 15 15',
+  hours: '6h00-22h00'
+},
 ];
 
 // Add markers for each agency
 agencies.forEach(function(agency) {
   var marker = L.marker([agency.latitude, agency.longitude]).addTo(map);
   
-  var popupContent = '<b>' + agency.name + '</b><br>' +
-                     'Address: ' + agency.address + '<br>' +
-                     'Phone: ' + agency.phone + '<br>' +
-                     'Opening Hours: ' + agency.hours + '<br>' +
-                     '<a href="https://www.google.com/maps/dir/?api=1&destination=' + agency.latitude + ',' + agency.longitude + '" target="_blank">Get Directions</a>';
+  var popupContent = '<div class="agency-name">' + agency.name + '</div>' +
+                     '<div class="agency-info"><strong>Adresse:</strong> ' + agency.address + '</div>' +
+                     '<div class="agency-info"><strong>Contact:</strong> ' + agency.phone + '</div>' +
+                     '<div class="agency-info"><strong>Horaire:</strong> ' + agency.hours + '</div>' +
+                     '<a class="get-directions" href="https://www.google.com/maps/dir/?api=1&destination=' + agency.latitude + ',' + agency.longitude + '" target="_blank">Obtenir la Direction</a>';
   
-  marker.bindPopup(popupContent);
+  marker.bindPopup(popupContent, {
+    className: 'custom-popup',
+    autoClose: true,
+    closeOnClick: true
+  }).on('click', function() {
+    this.openPopup();
+  });
 });
 </script>
 

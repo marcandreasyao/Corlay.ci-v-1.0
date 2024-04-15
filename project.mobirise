@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Corlay.ci - Site 2024-04-09 09:49",
-    "currentPage": "Aproposdecorlay.html",
+    "currentPage": "produitsetservices.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -4619,17 +4619,45 @@
         {
           "alias": false,
           "_styles": {
-            "background-color": "@bgcolor"
+            "background-color": "@bgcolor",
+            ".custom-popup .leaflet-popup-content-wrapper": {
+              "background-color": "#ffffff",
+              "border-radius": "8px",
+              "box-shadow": "0 2px 10px rgba(0, 0, 0, 0.2)"
+            },
+            ".custom-popup .leaflet-popup-content": {
+              "margin": "20px"
+            },
+            ".custom-popup .leaflet-popup-tip": {
+              "background-color": "#ffffff"
+            },
+            ".custom-popup .agency-name": {
+              "font-size": "18px",
+              "font-weight": "bold",
+              "margin-bottom": "10px"
+            },
+            ".custom-popup .agency-info": {
+              "margin-bottom": "5px"
+            },
+            ".custom-popup .get-directions": {
+              "display": "inline-block",
+              "padding": "8px 16px",
+              "background-color": "#AF272F",
+              "color": "#ffffff",
+              "text-decoration": "none",
+              "border-radius": "4px",
+              "margin-top": "10px"
+            }
           },
           "_name": "design-block",
-          "_customHTML": "<section data-bs-version=\"5.1\" group=\"HTML\" style=\"padding:{{ padding }}%;\">\n\n<mbr-parameters>\n<input type=\"text\" title=\"Iframe Width\" name=\"width\" value=\"1920\">\n<input type=\"text\" title=\"Iframe Height\" name=\"height\" value=\"1080\">\n<input type=\"checkbox\" title=\"Preview Iframe Content\" name=\"preview\" checked>\n<input type=\"range\" inline title=\"Padding %\" name=\"padding\" min=\"0\" max=\"15\" value=\"1\" step=\"1\">\n<input type=\"color\" title=\"Background Color\" name=\"bgcolor\" value=\"#242930\" selected>\n</mbr-parameters>\n\n<link rel=\"stylesheet\" href=\"https://unpkg.com/leaflet@1.7.1/dist/leaflet.css\" />\n<script src=\"https://unpkg.com/leaflet@1.7.1/dist/leaflet.js\"></script>\n<div id=\"map\" style=\"height: 400px;\"></div>\n\n<script>\n// Initialize the map\nvar map = L.map('map').setView([5.344772750478454, -4.0407534044921935], 10);\n\n// Add a tile layer (map background)\nL.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {\n  attribution: 'Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors',\n  maxZoom: 18,\n}).addTo(map);\n\n// Agency locations\nvar agencies = [\n  { name: 'Agency 1', latitude: 5.3567, longitude: -4.0123, address: 'Address 1', phone: 'Phone 1', hours: 'Hours 1' },\n  { name: 'Agency 2', latitude: 5.3789, longitude: -4.0456, address: 'Address 2', phone: 'Phone 2', hours: 'Hours 2' },\n  // Add more agency locations\n];\n\n// Add markers for each agency\nagencies.forEach(function(agency) {\n  var marker = L.marker([agency.latitude, agency.longitude]).addTo(map);\n  \n  var popupContent = '<b>' + agency.name + '</b><br>' +\n                     'Address: ' + agency.address + '<br>' +\n                     'Phone: ' + agency.phone + '<br>' +\n                     'Opening Hours: ' + agency.hours + '<br>' +\n                     '<a href=\"https://www.google.com/maps/dir/?api=1&destination=' + agency.latitude + ',' + agency.longitude + '\" target=\"_blank\">Get Directions</a>';\n  \n  marker.bindPopup(popupContent);\n});\n</script>\n\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" group=\"HTML\" style=\"padding:{{ padding }}%;\">\n\n<mbr-parameters>\n<input type=\"text\" title=\"Iframe Width\" name=\"width\" value=\"1920\">\n<input type=\"text\" title=\"Iframe Height\" name=\"height\" value=\"1080\">\n<input type=\"checkbox\" title=\"Preview Iframe Content\" name=\"preview\" checked>\n<input type=\"range\" inline title=\"Padding %\" name=\"padding\" min=\"0\" max=\"15\" value=\"1\" step=\"1\">\n<input type=\"color\" title=\"Background Color\" name=\"bgcolor\" value=\"#242930\" selected>\n</mbr-parameters>\n\n<link rel=\"stylesheet\" href=\"https://unpkg.com/leaflet@1.7.1/dist/leaflet.css\" />\n[JS_CODE_0]\n<div id=\"map\" style=\"height: 400px;\"></div>\n[JS_CODE_1]\n\n</section>",
           "_cid": "zTqo8u3WC8",
           "_anchor": "design-block-zTqo8u3WC8",
           "_sourceTheme": "startm5",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
             "<script src=\"https://unpkg.com/leaflet@1.7.1/dist/leaflet.js\"></script>",
-            "<script>\n// Initialize the map\nvar map = L.map('map').setView([5.344772750478454, -4.0407534044921935], 10);\n\n// Add a tile layer (map background)\nL.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {\n  attribution: 'Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors',\n  maxZoom: 18,\n}).addTo(map);\n\n// Agency locations\nvar agencies = [\n  { name: 'Agency 1', latitude: 5.3567, longitude: -4.0123, address: 'Address 1', phone: 'Phone 1', hours: 'Hours 1' },\n  { name: 'Agency 2', latitude: 5.3789, longitude: -4.0456, address: 'Address 2', phone: 'Phone 2', hours: 'Hours 2' },\n  // Add more agency locations\n];\n\n// Add markers for each agency\nagencies.forEach(function(agency) {\n  var marker = L.marker([agency.latitude, agency.longitude]).addTo(map);\n  \n  var popupContent = '<b>' + agency.name + '</b><br>' +\n                     'Address: ' + agency.address + '<br>' +\n                     'Phone: ' + agency.phone + '<br>' +\n                     'Opening Hours: ' + agency.hours + '<br>' +\n                     '<a href=\"https://www.google.com/maps/dir/?api=1&destination=' + agency.latitude + ',' + agency.longitude + '\" target=\"_blank\">Get Directions</a>';\n  \n  marker.bindPopup(popupContent);\n});\n</script>"
+            "<script>\n// Initialize the map\nvar map = L.map('map').setView([5.344772750478454, -4.0407534044921935], 10);\n\n// Add a tile layer (map background)\nL.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {\n  attribution: 'Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors',\n  maxZoom: 18,\n}).addTo(map);\n\n// Agency locations\nvar agencies = [\n  //{ name: 'Agency 1', latitude: 5.3567, longitude: -4.0123, address: 'Address 1', phone: 'Phone 1', hours: 'Hours 1' },\n  //{ name: 'Agency 2', latitude: 5.3789, longitude: -4.0456, address: 'Address 2', phone: 'Phone 2', hours: 'Hours 2' },\n  // Add more agency locations\n  {\n  name: 'Station Corlay, Bd Arsène Usher Assouan',\n  latitude: 5.35492,\n  longitude: -3.95982,\n  address: 'Corlay, 923R+X3Q, 112 Bd Arsène Usher Assouan',\n  phone: '+225 27 21 21 15 15',\n  hours: '6h00-22h00'\n},\n   {\n  name: 'Station Corlay, Rue des jardins',\n  latitude: 5.35546,\n  longitude: -3.99155,\n  address: 'Corlay, Corlay Gas Station, 9245+6C6, Rue des Jardins',\n  phone: '+225 27 21 21 15 15',\n  hours: '6h00-22h00'\n},\n     {\n  name: 'Station Corlay, Boulevard du Cameroun',\n  latitude: 5.29676,\n  longitude: -3.96820,\n  address: 'Corlay, 72WJ+PP3, Boulevard du Cameroun, Abidjan',\n  phone: '+225 01 51 28 16 90',\n  hours: '6h00-22h00'\n},\n  {\n  name: 'Station Corlay, Angré',\n  latitude: 5.39754,\n  longitude: -3.99182,\n  address: '92X5+373 Station Corlay Angré, Bd des Martyrs, Abidjan',\n  phone: '+225 27 21 21 15 15',\n  hours: '6h00-22h00'\n},\n  {\n  name: 'Station Corlay, Marcory 2',\n  latitude: 5.30224,\n  longitude: -3.98822,\n  address: '8226+XP9 Station Corlay, Abidjan',\n  phone: '+225 27 21 21 15 15',\n  hours: '6h00-22h00'\n},\n  {\n  name: 'Station Corlay, Treichville',\n  latitude: 5.30778,\n  longitude: -4.00944,\n  address: '8255+CC3 Corlay, Abidjan',\n  phone: '+225 27 21 21 15 15',\n  hours: '6h00-22h00'\n},\n  {\n  name: 'Station Corlay, Plateau',\n  latitude: 5.31539,\n  longitude: -4.01610,\n  address: '8X8M+6H5 Station Corlay Plateau, Abidjan',\n  phone: '+225 27 21 21 15 15',\n  hours: '6h00-22h00'\n},\n  {\n  name: 'Station Corlay, Marcory Résidentiel',\n  latitude: 5.30853,\n  longitude: -3.99129,\n  address: '8255+CC3 Corlay, Abidjan',\n  phone: '+225 27 21 21 15 15',\n  hours: '6h00-22h00'\n},\n  {\n  name: 'Station Corlay, Adjamé',\n  latitude: 5.35417,\n  longitude: -4.01778,\n  address: '9X3J+MW Corlay gas station, Bd de Gaulle, Abidjan',\n  phone: '+225 27 21 21 15 15',\n  hours: '6h00-22h00'\n},\n  {\n  name: 'Station Corlay, Autoroute du Nord',\n  latitude: 5.36216,\n  longitude: -4.02302,\n  address: '9X6G+VQQ Corlay gas station, Autoroute du Nord, Abidjan',\n  phone: '+225 27 21 21 15 15',\n  hours: '6h00-22h00'\n},\n];\n\n// Add markers for each agency\nagencies.forEach(function(agency) {\n  var marker = L.marker([agency.latitude, agency.longitude]).addTo(map);\n  \n  var popupContent = '<div class=\"agency-name\">' + agency.name + '</div>' +\n                     '<div class=\"agency-info\"><strong>Adresse:</strong> ' + agency.address + '</div>' +\n                     '<div class=\"agency-info\"><strong>Contact:</strong> ' + agency.phone + '</div>' +\n                     '<div class=\"agency-info\"><strong>Horaire:</strong> ' + agency.hours + '</div>' +\n                     '<a class=\"get-directions\" href=\"https://www.google.com/maps/dir/?api=1&destination=' + agency.latitude + ',' + agency.longitude + '\" target=\"_blank\">Obtenir la Direction</a>';\n  \n  marker.bindPopup(popupContent, {\n    className: 'custom-popup',\n    autoClose: true,\n    closeOnClick: true\n  }).on('click', function() {\n    this.openPopup();\n  });\n});\n</script>"
           ],
           "_protectedParams": [],
           "_global": false,

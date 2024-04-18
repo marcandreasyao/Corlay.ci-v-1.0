@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Corlay.ci - Site 2024-04-09 09:49",
-    "currentPage": "index.html",
+    "currentPage": "contact.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -89,7 +89,7 @@
       }
     ],
     "imageResize": false,
-    "uniqCompNum": 131,
+    "uniqCompNum": 134,
     "versionPublish": "5.9.17",
     "screenshot": "screenshot.png",
     "site_lang": "fr",
@@ -97,7 +97,7 @@
     "witsec-search-excluded-sections": "",
     "witsec-search-excluded-pages": "404.html",
     "favicon": false,
-    "mbrsiteDomain": "ldavt7bqjm",
+    "mbrsiteDomain": "8q1cltjxk5",
     "usedWebp": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
@@ -122,7 +122,8 @@
     "witsec-search": true,
     "witsec-mailform": false,
     "publishChangesOnly": true,
-    "publishEditFolder": true
+    "publishEditFolder": true,
+    "global_header_custom": "<link rel=\"manifest\" href=\"manifest.json\">"
   },
   "pages": {
     "index.html": {
@@ -1547,7 +1548,7 @@
               "height": "300px"
             },
             ".floating-container:hover .floating-button": {
-              "box-shadow": "0 10px 25px rgba(255, 63, 111, 0.6)",
+              "box-shadow": "0 10px 25px rgba(255, 63, 63, 0.6)",
               "-webkit-transform": "translatey(5px)",
               "transform": "translatey(5px)",
               "-webkit-transition": "all 0.3s",
@@ -1618,7 +1619,7 @@
               "box-shadow": "0 20px 20px -10px rgba(240, 26, 61, 0.5)"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" mbr-id=\"_anchor\" class=\"_customHTML\">\n \n  \n    <mbr-parameters>\n<hr><header>Button Config</header>\n      <input type=\"checkbox\" title=\"Button\" name=\"Whatbutton\" checked>\n        <input type=\"range\" inline title=\"Height\" name=\"heightwhat\" min=\"0\" max=\"100\" step=\"1\" value=\"77\" condition=\"Whatbutton\">\n        <input type=\"range\" inline title=\"Width\" name=\"widthwhat\" min=\"0\" max=\"100\" step=\"1\" value=\"76\" condition=\"Whatbutton\">\n              <input type=\"range\" inline title=\"Bottom\" name=\"bottomwhat\" min=\"0\" max=\"250\" step=\"1\" value=\"44\" condition=\"Whatbutton\">\n              <input type=\"range\" inline title=\"Right\" name=\"rightwhat\" min=\"0\" max=\"250\" step=\"1\" value=\"108\" condition=\"Whatbutton\">\n        <input type=\"range\" inline title=\"border-radius\" name=\"borderadius\" min=\"1\" max=\"100\" step=\"1\" value=\"100\" condition=\"Whatbutton\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgcolorwhat\" value=\"#af272f\" condition=\"Whatbutton\">\n        <input type=\"color\" title=\"Color\" name=\"colorwhat\" value=\"#ffffff\" condition=\"Whatbutton\">\n      <input type=\"range\" title=\"Font Size\" name=\"FontSize\" min=\"0\" max=\"100\" step=\"1\" value=\"44\" condition=\"Whatbutton\">\n            \n    </mbr-parameters> \n  <div class=\"whatapp\" mbr-if=\"Whatbutton\">\n\n  <!--<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">-->\n  <link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\n<div class=\"floating-container\">\n  <div class=\"floating-button\">\n    <span mbr-icon class=\"my-float fab fa-rocketchat\"></span>\n  </div>\n  <div class=\"element-container\">\n    <span class=\"float-element tooltip-left\">\n      <a href=\"tel:+2252721211515\">\n        <i class=\"material-icons\">phone</i>\n      </a>\n    </span>\n    <span class=\"float-element\">\n      <a href=\"mailto:infos@corlay.ci\">\n        <i class=\"material-icons\">email</i>\n      </a>\n    </span>\n    <span class=\"float-element\">\n      <a href=\"sms:+2252721211515\">\n        <i class=\"material-icons\">sms</i>\n      </a>\n    </span>\n  </div>\n</div>\n\n</div></section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" mbr-id=\"_anchor\" class=\"_customHTML\">\n \n  \n    <mbr-parameters>\n<hr><header>Button Config</header>\n      <input type=\"checkbox\" title=\"Button\" name=\"Whatbutton\" checked>\n        <input type=\"range\" inline title=\"Height\" name=\"heightwhat\" min=\"0\" max=\"100\" step=\"1\" value=\"77\" condition=\"Whatbutton\">\n        <input type=\"range\" inline title=\"Width\" name=\"widthwhat\" min=\"0\" max=\"100\" step=\"1\" value=\"76\" condition=\"Whatbutton\">\n              <input type=\"range\" inline title=\"Bottom\" name=\"bottomwhat\" min=\"0\" max=\"250\" step=\"1\" value=\"44\" condition=\"Whatbutton\">\n              <input type=\"range\" inline title=\"Right\" name=\"rightwhat\" min=\"0\" max=\"250\" step=\"1\" value=\"108\" condition=\"Whatbutton\">\n        <input type=\"range\" inline title=\"border-radius\" name=\"borderadius\" min=\"1\" max=\"100\" step=\"1\" value=\"100\" condition=\"Whatbutton\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgcolorwhat\" value=\"#af272f\" condition=\"Whatbutton\">\n        <input type=\"color\" title=\"Color\" name=\"colorwhat\" value=\"#ffffff\" condition=\"Whatbutton\">\n      <input type=\"range\" title=\"Font Size\" name=\"FontSize\" min=\"0\" max=\"100\" step=\"1\" value=\"44\" condition=\"Whatbutton\">\n            \n    </mbr-parameters> \n  <div class=\"whatapp\" mbr-if=\"Whatbutton\">\n\n  <!--<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">-->\n  <link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\n<div class=\"floating-container\">\n  <div class=\"floating-button\">\n    <span mbr-icon class=\"my-float fab fa-rocketchat\"></span>\n  </div>\n  <div class=\"element-container\">\n    <span class=\"float-element tooltip-left\">\n      <a href=\"tel:+2252721211515\">\n        <i class=\"material-icons\"></i>\n      </a>\n    </span>\n    <span class=\"float-element\">\n      <a href=\"mailto:infos@corlay.ci\">\n        <i class=\"material-icons\"></i>\n      </a>\n    </span>\n    <span class=\"float-element\">\n      <a href=\"sms:+2252721211515\">\n        <i class=\"material-icons\"></i>\n      </a>\n    </span>\n  </div>\n</div>\n\n</div></section>",
           "_anchor": "design-block-3l",
           "_isUserblock": true,
           "_cid": "uabc5jtSus",
@@ -7058,7 +7059,7 @@
               "height": "300px"
             },
             ".floating-container:hover .floating-button": {
-              "box-shadow": "0 10px 25px rgba(44, 179, 240, 0.6)",
+              "box-shadow": "0 10px 25px rgba(134, 5, 38, 0.6)",
               "-webkit-transform": "translatey(5px)",
               "transform": "translatey(5px)",
               "-webkit-transition": "all 0.3s",
@@ -7118,23 +7119,23 @@
             },
             ".floating-container .float-element:nth-child(1)": {
               "background": "#f1eded",
-              "box-shadow": "0 20px 20px -10px rgba(66, 165, 245, 0.5)"
+              "box-shadow": "0 20px 20px -10px rgba(187, 0, 10, 0.562)"
             },
             ".floating-container .float-element:nth-child(2)": {
-              "background": "#4CAF50",
-              "box-shadow": "0 20px 20px -10px rgba(76, 175, 80, 0.5)"
+              "background": "#f1eded",
+              "box-shadow": "0 20px 20px -10px rgba(187, 0, 10, 0.562)"
             },
             ".floating-container .float-element:nth-child(3)": {
-              "background": "#FF9800",
-              "box-shadow": "0 20px 20px -10px rgba(255, 152, 0, 0.5)"
+              "background": "#f1eded",
+              "box-shadow": "0 20px 20px -10px rgba(187, 0, 10, 0.562)"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" mbr-id=\"_anchor\" class=\"_customHTML\">\n \n  \n    <mbr-parameters>\n<hr><header>Button Config</header>\n      <input type=\"checkbox\" title=\"Button\" name=\"Whatbutton\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Height\" name=\"heightwhat\" min=\"0\" max=\"100\" step=\"1\" value=\"77\" condition=\"Whatbutton\">\n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"widthwhat\" min=\"0\" max=\"100\" step=\"1\" value=\"76\" condition=\"Whatbutton\">\n              <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"bottomwhat\" min=\"0\" max=\"250\" step=\"1\" value=\"44\" condition=\"Whatbutton\">\n              <input type=\"range\" inline=\"\" title=\"Right\" name=\"rightwhat\" min=\"0\" max=\"250\" step=\"1\" value=\"108\" condition=\"Whatbutton\">\n        <input type=\"range\" inline=\"\" title=\"border-radius\" name=\"borderadius\" min=\"1\" max=\"100\" step=\"1\" value=\"100\" condition=\"Whatbutton\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgcolorwhat\" value=\"#af272f\" condition=\"Whatbutton\">\n        <input type=\"color\" title=\"Color\" name=\"colorwhat\" value=\"#ffffff\" condition=\"Whatbutton\">\n      <input type=\"range\" title=\"Font Size\" name=\"FontSize\" min=\"0\" max=\"100\" step=\"1\" value=\"44\" condition=\"Whatbutton\">\n            \n    </mbr-parameters> \n  <div class=\"whatapp\" mbr-if=\"Whatbutton\">\n\n  <!--<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">-->\n  <link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\n<div class=\"floating-container\">\n  <div class=\"floating-button\">\n    <span mbr-icon=\"\" class=\"my-float fab fa-rocketchat\"></span>\n  </div>\n  <div class=\"element-container\">\n    <span class=\"float-element tooltip-left\">\n      <a href=\"tel:+2252721211515\">\n        <i class=\"material-icons\">phone</i>\n      </a>\n    </span>\n    <span class=\"float-element\">\n      <a href=\"mailto:infos@corlay.ci\">\n        <i class=\"material-icons\">email</i>\n      </a>\n    </span>\n    <span class=\"float-element\">\n      <a href=\"sms:+2252721211515\">\n        <i class=\"material-icons\">sms</i>\n      </a>\n    </span>\n  </div>\n</div>\n\n</div></section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" mbr-id=\"_anchor\" class=\"_customHTML\">\n \n  \n    <mbr-parameters>\n<hr><header>Button Config</header>\n      <input type=\"checkbox\" title=\"Button\" name=\"Whatbutton\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Height\" name=\"heightwhat\" min=\"0\" max=\"100\" step=\"1\" value=\"77\" condition=\"Whatbutton\">\n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"widthwhat\" min=\"0\" max=\"100\" step=\"1\" value=\"76\" condition=\"Whatbutton\">\n              <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"bottomwhat\" min=\"0\" max=\"250\" step=\"1\" value=\"44\" condition=\"Whatbutton\">\n              <input type=\"range\" inline=\"\" title=\"Right\" name=\"rightwhat\" min=\"0\" max=\"250\" step=\"1\" value=\"108\" condition=\"Whatbutton\">\n        <input type=\"range\" inline=\"\" title=\"border-radius\" name=\"borderadius\" min=\"1\" max=\"100\" step=\"1\" value=\"100\" condition=\"Whatbutton\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgcolorwhat\" value=\"#af272f\" condition=\"Whatbutton\">\n        <input type=\"color\" title=\"Color\" name=\"colorwhat\" value=\"#ffffff\" condition=\"Whatbutton\">\n      <input type=\"range\" title=\"Font Size\" name=\"FontSize\" min=\"0\" max=\"100\" step=\"1\" value=\"44\" condition=\"Whatbutton\">\n            \n    </mbr-parameters> \n  <div class=\"whatapp\" mbr-if=\"Whatbutton\">\n\n  <!--<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">-->\n  <link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\n<div class=\"floating-container\">\n  <div class=\"floating-button\">\n    <span mbr-icon=\"\" class=\"my-float fab fa-rocketchat\"></span>\n  </div>\n  <div class=\"element-container\">\n    <span class=\"float-element tooltip-left\">\n      <a href=\"tel:+2252721211515\">\n        <i class=\"material-icons\">call</i>\n      </a>\n    </span>\n    <span class=\"float-element\">\n      <a href=\"mailto:infos@corlay.ci\">\n        <i class=\"material-icons\">mail</i>\n      </a>\n    </span>\n    <span class=\"float-element\">\n      <a href=\"sms:+2252721211515\">\n        <i class=\"material-icons\">sms</i>\n      </a>\n    </span>\n  </div>\n</div>\n\n</div></section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
-          "_anchor": "design-block-3m",
+          "_anchor": "design-block-3p",
           "_isUserblock": true,
-          "_cid": "uabOgqqVaT",
+          "_cid": "uajzdFghz8",
           "_protectedParams": [],
           "_global": false,
           "_once": false,

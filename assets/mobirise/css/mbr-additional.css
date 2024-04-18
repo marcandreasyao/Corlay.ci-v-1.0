@@ -1838,7 +1838,7 @@ a {
   height: 300px;
 }
 .cid-uabc5jtSus .floating-container:hover .floating-button {
-  box-shadow: 0 10px 25px rgba(255, 63, 111, 0.6);
+  box-shadow: 0 10px 25px rgba(255, 63, 63, 0.6);
   -webkit-transform: translatey(5px);
   transform: translatey(5px);
   -webkit-transition: all 0.3s;
@@ -6035,16 +6035,16 @@ a {
     opacity: 1;
   }
 }
-.cid-uabOgqqVaT * {
+.cid-uajzdFghz8 * {
   margin: 0;
   padding: 0;
 }
-.cid-uabOgqqVaT html,
-.cid-uabOgqqVaT body {
+.cid-uajzdFghz8 html,
+.cid-uajzdFghz8 body {
   background: #eaedf2;
   font-family: 'Roboto', sans-serif;
 }
-.cid-uabOgqqVaT .floating-container {
+.cid-uajzdFghz8 .floating-container {
   position: fixed;
   width: 100px;
   height: 100px;
@@ -6052,29 +6052,29 @@ a {
   right: 0;
   margin: 35px 25px;
 }
-.cid-uabOgqqVaT .floating-container:hover {
+.cid-uajzdFghz8 .floating-container:hover {
   height: 300px;
 }
-.cid-uabOgqqVaT .floating-container:hover .floating-button {
-  box-shadow: 0 10px 25px rgba(44, 179, 240, 0.6);
+.cid-uajzdFghz8 .floating-container:hover .floating-button {
+  box-shadow: 0 10px 25px rgba(134, 5, 38, 0.6);
   -webkit-transform: translatey(5px);
   transform: translatey(5px);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-.cid-uabOgqqVaT .floating-container:hover .element-container .float-element:nth-child(1) {
+.cid-uajzdFghz8 .floating-container:hover .element-container .float-element:nth-child(1) {
   -webkit-animation: come-in 0.4s forwards 0.2s;
   animation: come-in 0.4s forwards 0.2s;
 }
-.cid-uabOgqqVaT .floating-container:hover .element-container .float-element:nth-child(2) {
+.cid-uajzdFghz8 .floating-container:hover .element-container .float-element:nth-child(2) {
   -webkit-animation: come-in 0.4s forwards 0.4s;
   animation: come-in 0.4s forwards 0.4s;
 }
-.cid-uabOgqqVaT .floating-container:hover .element-container .float-element:nth-child(3) {
+.cid-uajzdFghz8 .floating-container:hover .element-container .float-element:nth-child(3) {
   -webkit-animation: come-in 0.4s forwards 0.6s;
   animation: come-in 0.4s forwards 0.6s;
 }
-.cid-uabOgqqVaT .floating-container .floating-button {
+.cid-uajzdFghz8 .floating-container .floating-button {
   position: absolute;
   width: 65px;
   height: 65px;
@@ -6094,7 +6094,7 @@ a {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-.cid-uabOgqqVaT .floating-container .float-element {
+.cid-uajzdFghz8 .floating-container .float-element {
   position: relative;
   display: block;
   border-radius: 50%;
@@ -6110,21 +6110,21 @@ a {
   -webkit-transform: translateY(100px);
   transform: translateY(100px);
 }
-.cid-uabOgqqVaT .floating-container .float-element .material-icons {
+.cid-uajzdFghz8 .floating-container .float-element .material-icons {
   vertical-align: middle;
   font-size: 16px;
 }
-.cid-uabOgqqVaT .floating-container .float-element:nth-child(1) {
+.cid-uajzdFghz8 .floating-container .float-element:nth-child(1) {
   background: #f1eded;
-  box-shadow: 0 20px 20px -10px rgba(66, 165, 245, 0.5);
+  box-shadow: 0 20px 20px -10px rgba(187, 0, 10, 0.562);
 }
-.cid-uabOgqqVaT .floating-container .float-element:nth-child(2) {
-  background: #4CAF50;
-  box-shadow: 0 20px 20px -10px rgba(76, 175, 80, 0.5);
+.cid-uajzdFghz8 .floating-container .float-element:nth-child(2) {
+  background: #f1eded;
+  box-shadow: 0 20px 20px -10px rgba(187, 0, 10, 0.562);
 }
-.cid-uabOgqqVaT .floating-container .float-element:nth-child(3) {
-  background: #FF9800;
-  box-shadow: 0 20px 20px -10px rgba(255, 152, 0, 0.5);
+.cid-uajzdFghz8 .floating-container .float-element:nth-child(3) {
+  background: #f1eded;
+  box-shadow: 0 20px 20px -10px rgba(187, 0, 10, 0.562);
 }
 .cid-u9rljGI1ck {
   z-index: 1000;

@@ -1,6 +1,6 @@
 {
   "short_name": "Corlay",
-  "name": "Corlay Progressive Web App",
+  "name": "Corlay Côte d'Ivoire",
   "icons": [
     {
       "src": "assets/icons/icon-192x192.png",
@@ -27,5 +27,5 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "scope": "/",
-  "theme_color": "#3367D6"
+  "theme_color": "#fe5000"
 }

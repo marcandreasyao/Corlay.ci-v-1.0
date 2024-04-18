@@ -6051,6 +6051,7 @@ a {
   bottom: 0;
   right: 0;
   margin: 35px 25px;
+  z-index: 1000;
 }
 .cid-uajYZGAeUf .floating-container:hover {
   height: 300px;

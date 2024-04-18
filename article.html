@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link href="assets/fonts/style.css" rel="stylesheet">
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=5EUY5P"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=5EUY5P" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=9ydDie"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=9ydDie" type="text/css">
 
   
   <link rel="manifest" href="manifest.json">
@@ -518,7 +518,19 @@ body{ top: 0 !important;}
 				
     </div></div>
 </section><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/witsec-jquery-3.6.0/jquery-3.6.0.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-core.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-script.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
-  
+   <script src="scripts/app.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/service-worker.js')
+            .then(function(registration) {
+              console.log('Service Worker registered with scope:', registration.scope);
+            }, function(err) {
+              console.log('Service Worker registration failed:', err);
+            });
+        });
+      }
+    </script>
   
 <input name="cookieData" type="hidden" data-cookie-cookiesAlertType='false' data-cookie-customDialogSelector='null' data-cookie-colorText='#424a4d' data-cookie-colorBg='rgb(255, 255, 255)' data-cookie-opacityOverlay='0' data-cookie-bgOpacity='100' data-cookie-textButton='Accepter' data-cookie-rejectText='REJECT' data-cookie-colorButton='#fe5000' data-cookie-rejectColor='#ffffff' data-cookie-colorLink='#424a4d' data-cookie-underlineLink='true' data-cookie-text="Nous utilisons des cookies pour vous offrir la meilleure expérience. Lisez notre <a href='privacy.html'>politique de cookies</a>.">
    <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>

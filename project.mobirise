@@ -97,7 +97,7 @@
     "witsec-search-excluded-sections": "",
     "witsec-search-excluded-pages": "404.html",
     "favicon": false,
-    "mbrsiteDomain": "w70x9cdibj",
+    "mbrsiteDomain": "fstzuevnud",
     "usedWebp": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
@@ -154,7 +154,8 @@
     "witsec-mailform-attachments-mimetypes": "application/gzip\napplication/java-archive\napplication/json\napplication/ld+json\napplication/msword\napplication/ogg\napplication/pdf\napplication/rtf\napplication/vnd.amazon.ebook\napplication/vnd.api+json\napplication/vnd.apple.installer+xml\napplication/vnd.mozilla.xul+xml\napplication/vnd.ms-excel\napplication/vnd.ms-fontobject\napplication/vnd.ms-powerpoint\napplication/vnd.oasis.opendocument.presentation\napplication/vnd.oasis.opendocument.spreadsheet\napplication/vnd.oasis.opendocument.text\napplication/vnd.openxmlformats-officedocument.presentationml.presentation\napplication/vnd.openxmlformats-officedocument.spreadsheetml.sheet\napplication/vnd.openxmlformats-officedocument.wordprocessingml.document\napplication/vnd.rar\napplication/vnd.visio\napplication/x-7z-compressed\napplication/x-abiword\napplication/x-bzip\napplication/x-bzip2\napplication/x-freearc\napplication/x-httpd-php\napplication/x-tar\napplication/x-www-form-urlencoded\napplication/xhtml+xml\napplication/xml\napplication/zip\napplication/zstd\naudio/*\nfont/*\nimage/*\nmultipart/form-data\ntext/plain\ntext/calendar\ntext/css\ntext/csv\ntext/rtf\nvideo/*",
     "witsec-mailform-attachments-extensions": "avi\nbmp\ncer\ncfg\ncss\ncsv\ncur\ndoc\ndocx\neml\nemlx\nfnt\nfon\ngif\nh264\nico\nini\njpeg\njpg\nkey\nlog\nmid\nmkv\nmov\nmp3\nmp4\nmpa\nmpeg\nmpg\nmsg\nodp\nods\nodt\nogg\notf\npdf\npng\npps\nppt\npptx\nps\npsd\nrss\nrtf\nsvg\ntif\ntiff\nttf\ntxt\nvcf\nwav\nwebm\nwebp\nwma\nwmv\nwpd\nxls\nxlsx",
     "witsec-mailform-allowedhtml": "b,br,i,p,u",
-    "witsec-mailform-recaptcha-hidebadge": false
+    "witsec-mailform-recaptcha-hidebadge": false,
+    "global_footer_custom": " <script src=\"scripts/app.js\"></script>\n    <script>\n      if ('serviceWorker' in navigator) {\n        window.addEventListener('load', function() {\n          navigator.serviceWorker.register('/service-worker.js')\n            .then(function(registration) {\n              console.log('Service Worker registered with scope:', registration.scope);\n            }, function(err) {\n              console.log('Service Worker registration failed:', err);\n            });\n        });\n      }\n    </script>"
   },
   "pages": {
     "index.html": {

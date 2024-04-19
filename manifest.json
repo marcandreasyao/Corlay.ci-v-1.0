@@ -25,8 +25,9 @@
   ],
   "start_url": "index.html",
   "background_color": "#ffffff",
-  "display": "standalone",
+  "display": "fullscreen",
   "scope": "/",
   "theme_color": "#fe5000",
-  "lang": "fr"
+  "lang": "fr",
+  "orientation": "any"
 }

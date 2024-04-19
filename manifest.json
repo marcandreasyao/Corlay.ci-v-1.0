@@ -31,5 +31,8 @@
   "theme_color": "#fe5000",
   "lang": "fr",
   "orientation": "any",
-  "description": "Installer l'appli Corlay Côte D'Ivoire pour être plus proche de nous."
+  "description": "Installer l'appli Corlay Côte D'Ivoire pour être plus proche de nous.",
+  "launch_handler": {
+    "client_mode": "navigate"
+  }
 }

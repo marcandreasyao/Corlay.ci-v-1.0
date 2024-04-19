@@ -34,5 +34,12 @@
   "description": "Installer l'appli Corlay Côte D'Ivoire pour être plus proche de nous.",
   "launch_handler": {
     "client_mode": "navigate"
-  }
+  },
+  "shortcuts": [
+    {
+      "name": "Accueil",
+      "url": "https://corlay.netlify.app/",
+      "description": "Page d'accueil Corlay"
+    }
+  ]
 }

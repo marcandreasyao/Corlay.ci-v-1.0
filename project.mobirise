@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Corlay.ci - Site 2024-04-09 09:49",
-    "currentPage": "contact.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -97,7 +97,7 @@
     "witsec-search-excluded-sections": "",
     "witsec-search-excluded-pages": "404.html",
     "favicon": false,
-    "mbrsiteDomain": "i0uzestyau",
+    "mbrsiteDomain": "5fqbcvqbjk",
     "usedWebp": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
@@ -123,7 +123,7 @@
     "witsec-mailform": true,
     "publishChangesOnly": true,
     "publishEditFolder": true,
-    "global_header_custom": "<link rel=\"manifest\" href=\"manifest.json\">",
+    "global_header_custom": "<!-- Meta tags for responsive design -->\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <!-- Link to the Manifest -->\n    <link rel=\"manifest\" href=\"manifest.json\">\n    <!-- Theme Color for Address Bar -->\n    <meta name=\"theme-color\" content=\"#fe5000\">\n    <!-- Service Worker Registration -->\n    <script>\n    if ('serviceWorker' in navigator) {\n        window.addEventListener('load', function() {\n            navigator.serviceWorker.register('/service-worker.js').then(function(registration) {\n                console.log('Service Worker registration successful with scope: ', registration.scope);\n            }, function(err) {\n                console.log('Service Worker registration failed: ', err);\n            });\n        });\n    }\n    </script>",
     "witsec-mailform-to": "marcandreas2018@gmail.com",
     "witsec-mailform-to-alt": "",
     "witsec-mailform-from": "marcandreas2018@gmail.com",
@@ -155,7 +155,7 @@
     "witsec-mailform-attachments-extensions": "avi\nbmp\ncer\ncfg\ncss\ncsv\ncur\ndoc\ndocx\neml\nemlx\nfnt\nfon\ngif\nh264\nico\nini\njpeg\njpg\nkey\nlog\nmid\nmkv\nmov\nmp3\nmp4\nmpa\nmpeg\nmpg\nmsg\nodp\nods\nodt\nogg\notf\npdf\npng\npps\nppt\npptx\nps\npsd\nrss\nrtf\nsvg\ntif\ntiff\nttf\ntxt\nvcf\nwav\nwebm\nwebp\nwma\nwmv\nwpd\nxls\nxlsx",
     "witsec-mailform-allowedhtml": "b,br,i,p,u",
     "witsec-mailform-recaptcha-hidebadge": false,
-    "global_footer_custom": " <script src=\"scripts/app.js\"></script>\n    <script>\n      if ('serviceWorker' in navigator) {\n        window.addEventListener('load', function() {\n          navigator.serviceWorker.register('/service-worker.js')\n            .then(function(registration) {\n              console.log('Service Worker registered with scope:', registration.scope);\n            }, function(err) {\n              console.log('Service Worker registration failed:', err);\n            });\n        });\n      }\n    </script>"
+    "global_footer_custom": ""
   },
   "pages": {
     "index.html": {

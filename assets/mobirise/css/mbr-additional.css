@@ -4998,7 +4998,7 @@ a {
 .cid-u9zEADVKOX {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-image: url("../../../assets/images/background4.jpg");
+  background-image: url("../../../assets/images/banni-qualite-ameliore.png");
 }
 .cid-u9zEADVKOX H2 {
   text-align: center;
@@ -5049,7 +5049,10 @@ a {
 .cid-u9BDrJAbBf .card-title,
 .cid-u9BDrJAbBf .card-box {
   text-align: left;
-  color: #000000;
+  color: #232323;
+}
+.cid-u9BDrJAbBf .mbr-section-subtitle {
+  text-align: left;
 }
 .cid-u9Y5fo5RZn {
   padding-top: 0rem;

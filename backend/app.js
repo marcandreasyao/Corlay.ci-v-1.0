@@ -64,7 +64,7 @@ app.use(express.static(frontendPath));
 
 // Setup a basic route to confirm server is working
 app.get('/', (req, res) => {
-  res.send('Hello from the backend server!');
+  res.send('Serveur NodeJS Prêt!');
 });
 
 // Define the port and start the server

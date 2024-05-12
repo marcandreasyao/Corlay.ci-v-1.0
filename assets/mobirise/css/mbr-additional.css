@@ -5771,6 +5771,9 @@ a {
 .cid-DoOODmlv2U .show {
   visibility: visible;
 }
+.cid-DoOODmlv2U iframe {
+  visibility: hidden;
+}
 .cid-DoOODmlv2U .hide {
   visibility: hidden;
 }
